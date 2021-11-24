@@ -1,0 +1,69 @@
+/*inserimento dello sfondo */
+body{
+  background-image: url("background.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  width:auto;
+  height:auto;
+}
+/*insermineto dimenzioni e centratura del conteiner*/
+.conteiner{
+  width: 750px;
+  height:750px;
+  top:50%;
+  left:50%;
+  position: absolute;
+  margin-top: -375px;
+  margin-left: -375px;
+}
+/*colorazione e posizionamento della sfumatura*/
+.sfumato{
+  background:rgba(0,0,0,0.7);
+  background-blend-mode: darken;
+  border-radius: 10px 10px 10px 10px
+}
+/*logo*/
+.logo{
+  width: 180px;
+}
+/*allineamento e colore dello slogan*/
+.slogan{
+  text-align: center;
+  color: #7FFF00;
+}
+/*disposizione e colorazione dei bottoni*/
+.bottoni{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  #7FFF00;
+  border:1px solid black;
+  width:auto;
+  height:32px;
+}
+/*colorazione e dimenzione della prima barra*/
+.barra1{
+  background-color:  #DAA520;
+  border:1px solid black;
+  width:200px;
+  height:25px;
+  border-radius: 10px 10px 10px 10px;
+}
+/*colorazione e dimenzione della seconda barra*/
+.barra2{
+  background-color:#7FFF00 ;
+  border:1px solid black;
+  width:350px;
+  height:25px;
+  border-radius: 10px 10px 10px 10px;
+}
+/*colorazione e dimenzione della terza barra*/
+.barra3{
+  background-color:#DC143C ;
+  border:1px solid black;
+  width:100px;
+  height:25px;
+  border-radius: 10px 10px 10px 10px;
+}
